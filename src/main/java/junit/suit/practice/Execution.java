@@ -1,0 +1,14 @@
+package junit.suit.practice;
+
+import org.junit.After;
+import org.junit.runner.RunWith;
+import org.junit.runners.Suite;
+import org.junit.runners.Suite.SuiteClasses;
+
+@RunWith(Suite.class)
+@SuiteClasses({ Test1.class, Test2.class })
+
+public class Execution {
+
+
+}
